@@ -12,14 +12,13 @@ export default function App() {
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        width: "100%",
+        backgroundColor: "#eee",
       }}
     >
       <StatusBar style="auto" />
       <SafeAreaTop />
-      <SafeAreaView>
-        <Home />
-      </SafeAreaView>
+
+      <Home />
     </View>
   );
 }

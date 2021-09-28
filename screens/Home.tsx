@@ -1,5 +1,6 @@
 import React from "react";
 import { View } from "react-native";
+import Categories from "../components/Categories";
 import HeaderTabs from "../components/HeaderTabs";
 import SearchBar from "../components/SearchBar";
 
@@ -8,14 +9,14 @@ export default function Home() {
     <View>
       <View
         style={{
-          flex: 1,
-          backgroundColor: "white",
-          width: "100%",
+          backgroundColor: "#fff",
+          padding: 15,
         }}
       >
         <HeaderTabs />
         <SearchBar />
       </View>
+      <Categories />
     </View>
   );
 }

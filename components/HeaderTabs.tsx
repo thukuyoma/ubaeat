@@ -10,8 +10,6 @@ export default function HeaderTabs() {
         flexDirection: "row",
         justifyContent: "center",
         alignSelf: "center",
-        width: "100%",
-        backgroundColor: "white",
         paddingBottom: 10,
         padding: 15,
       }}
