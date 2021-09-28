@@ -24,7 +24,7 @@ export default function HeaderButton({
         style={{
           color: activeTab === title ? "white" : "black",
           fontSize: 15,
-          fontWeight: "900",
+          fontWeight: activeTab === title ? "bold" : "normal",
         }}
       >
         {title}

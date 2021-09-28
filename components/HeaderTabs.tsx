@@ -9,7 +9,11 @@ export default function HeaderTabs() {
       style={{
         flexDirection: "row",
         justifyContent: "center",
-        alignItems: "center",
+        alignSelf: "center",
+        width: "100%",
+        backgroundColor: "white",
+        paddingBottom: 10,
+        padding: 15,
       }}
     >
       <HeaderButton
