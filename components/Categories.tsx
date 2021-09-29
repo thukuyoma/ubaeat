@@ -32,7 +32,6 @@ const items = [
   },
 ];
 
-const testImage = require("../assets/images/shopping-bag.png");
 export default function Categories() {
   return (
     <View
@@ -41,7 +40,6 @@ export default function Categories() {
         paddingVertical: 10,
         paddingLeft: 20,
         backgroundColor: "#fff",
-        flex: 1,
       }}
     >
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
