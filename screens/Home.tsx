@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { ScrollView, View, Text } from "react-native";
+import { ScrollView, View } from "react-native";
 import Categories from "../components/Categories";
-import Footer from "../components/Footer";
+import Footer from "../components/home/Footer";
 import HeaderTabs from "../components/HeaderTabs";
 import Restaurants from "../components/Restaurants";
 import SearchBar from "../components/SearchBar";
@@ -27,9 +27,6 @@ export default function Home() {
       </ScrollView>
       <Divider width={1} />
       <Footer />
-      {/* <Text>Hello</Text>
-      <Text>Hello</Text>
-      <Text>Hello</Text> */}
     </View>
   );
 }

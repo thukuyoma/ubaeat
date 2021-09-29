@@ -8,7 +8,6 @@ export default function Footer() {
       style={{
         flexDirection: "row",
         margin: 10,
-        marginHorizontal: 30,
         justifyContent: "space-between",
         marginBottom: 30,
       }}

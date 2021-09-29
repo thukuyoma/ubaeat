@@ -4,6 +4,7 @@ import { SafeAreaView, View } from "react-native";
 import SafeAreaTop from "./components/shared/SafeAreaTop";
 
 import Home from "./screens/Home";
+import RestaurantDetails from "./screens/RestaurantDetails";
 
 export default function App() {
   return (
@@ -18,7 +19,8 @@ export default function App() {
       <StatusBar style="auto" />
       <SafeAreaTop />
 
-      <Home />
+      {/* <Home /> */}
+      <RestaurantDetails />
     </View>
   );
 }
